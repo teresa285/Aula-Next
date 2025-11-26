@@ -13,6 +13,10 @@ export default function Home() {
           width={200}
           height={300}
           />
+
+          <p>
+            Explore nossa coleção de livros, artigos e recursos digitais.
+          </p>
         </div>
      
 
