@@ -6,7 +6,7 @@ import styles from './Header.module.css';
     return(
         <header className={styles.header}>
             <h1>
-                <Link href="/" className={styles.Link}>
+                <Link href="/" className={styles.link}>
                 IFPB-Biblioteca
                 </Link>
             </h1>
@@ -14,7 +14,7 @@ import styles from './Header.module.css';
                 <Link href="/" className={styles.link}>
                  Home
                 </Link>
-                <Link href="/ cadastro" className={styles.link}>
+                <Link href="/cadastro" className={styles.link}>
                  Cadastro de Livros
                 </Link>
                 <Link href="/sobre" className={styles.link}>
